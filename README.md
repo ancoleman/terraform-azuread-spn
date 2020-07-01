@@ -19,7 +19,7 @@ This module can generate unlimited service prinicpals, and a role defintions.
 ## Usage
 ````hcl-terraform
 module "spn" {
-  source    = "git::https://spring.paloaltonetworks.com/acoleman/terraform-azure-spn?ref=v0.1.0"
+  source    = "git::https://spring.paloaltonetworks.com/acoleman/terraform-azure-spn?ref=v1.0"
   myspns    = local.myspns
   role_defs = local.role_defs
 }
